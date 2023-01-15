@@ -1,5 +1,5 @@
 make lint:
 	npx eslint .
 
-make gendiff -h:
+gendiff:
 	node bin/gendiff.js
